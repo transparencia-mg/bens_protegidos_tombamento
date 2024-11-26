@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.063,
+  "time": 0.061,
   "errors": [],
   "tasks": [
     {
@@ -19,28 +19,43 @@
           "fields": [
             {
               "name": "municipio",
-              "type": "string"
+              "type": "string",
+              "title": "Município",
+              "format": "default",
+              "description": "Nome do municipio em que se encontra o bem tombado"
             },
             {
               "name": "descricao_bem_tombado",
-              "type": "string"
+              "type": "string",
+              "title": "Descrição do bem tombado",
+              "format": "default",
+              "description": "Descrição do bem tombado"
             },
             {
               "name": "local_ocorrencia_bem_tombado",
-              "type": "string"
+              "type": "string",
+              "title": "Local do tombamento",
+              "format": "default",
+              "description": "Local do municipio onde se localiza o bem tombado."
             },
             {
               "name": "categoria",
-              "type": "string"
+              "type": "string",
+              "title": "Categoria",
+              "format": "default",
+              "description": "NH - Núcleos Históricos e Centros Históricos CP - Conjuntos Paisagísticos Urbanos e naturais BI- Bens Imóveis -Estruturas Arquitetônicas isoladas BM - Bens Móveis / Bens Integrados"
             },
             {
               "name": "exercicio_aceito_para_efeito_de_pontuacao",
-              "type": "integer"
+              "type": "integer",
+              "title": "Exercício aceito para efeito de pontuação",
+              "format": "default",
+              "description": "Ano em que a documentacao foi apresentada e aceita para fins de pontuacao"
             }
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Bens Protegidos - Tombamento",
         "stats": {
           "hash": "3d908e8077fca6692c018faeeaa981a6",
           "bytes": 371890,
@@ -48,7 +63,7 @@
           "rows": 3267
         }
       },
-      "time": 0.055,
+      "time": 0.053,
       "scope": [
         "hash-count-error",
         "byte-count-error",
