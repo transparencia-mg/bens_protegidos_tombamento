@@ -18,29 +18,44 @@
         "fields": [
           {
             "name": "municipio",
-            "type": "string"
+            "type": "string",
+            "title": "Município",
+            "format": "default",
+            "description": "Nome do municipio em que se encontra o bem tombado"
           },
           {
             "name": "descricao_bem_tombado",
-            "type": "string"
+            "type": "string",
+            "title": "Descrição do bem tombado",
+            "format": "default",
+            "description": "Descrição do bem tombado"
           },
           {
             "name": "local_ocorrencia_bem_tombado",
-            "type": "string"
+            "type": "string",
+            "title": "Local do tombamento",
+            "format": "default",
+            "description": "Local do municipio onde se localiza o bem tombado."
           },
           {
             "name": "categoria",
-            "type": "string"
+            "type": "string",
+            "title": "Categoria",
+            "format": "default",
+            "description": "NH - Núcleos Históricos e Centros Históricos CP - Conjuntos Paisagísticos Urbanos e naturais BI- Bens Imóveis -Estruturas Arquitetônicas isoladas BM - Bens Móveis / Bens Integrados"
           },
           {
             "name": "exercicio_aceito_para_efeito_de_pontuacao",
-            "type": "integer"
+            "type": "integer",
+            "title": "Exercício aceito para efeito de pontuação",
+            "format": "default",
+            "description": "Ano em que a documentacao foi apresentada e aceita para fins de pontuacao"
           }
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Bens Protegidos - Tombamento"
     }
   ],
-  "title": "Bens_protegidos_tombamento"
+  "title": "Bens Protegidos - Tombamento"
 }
