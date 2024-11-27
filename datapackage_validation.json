@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.061,
+  "time": 0.065,
   "errors": [],
   "tasks": [
     {
@@ -57,13 +57,13 @@
         "scheme": "file",
         "title": "Bens Protegidos - Tombamento",
         "stats": {
-          "hash": "3d908e8077fca6692c018faeeaa981a6",
-          "bytes": 371890,
+          "hash": "9126ea86aa81fddbfd3e7b73c87aff1b",
+          "bytes": 371843,
           "fields": 5,
           "rows": 3267
         }
       },
-      "time": 0.053,
+      "time": 0.057,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -86,6 +86,136 @@
       ],
       "partial": false,
       "errors": [
+        {
+          "label": "cidade",
+          "fieldName": "municipio",
+          "fieldNumber": 1,
+          "fieldPosition": 1,
+          "labels": [
+            "cidade",
+            "denominacao_do_bem_tombado",
+            "endereco",
+            "tipo",
+            "ano_de_tombamento"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"cidade\" in field municipio at position \"1\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "denominacao_do_bem_tombado",
+          "fieldName": "descricao_bem_tombado",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "labels": [
+            "cidade",
+            "denominacao_do_bem_tombado",
+            "endereco",
+            "tipo",
+            "ano_de_tombamento"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"denominacao_do_bem_tombado\" in field descricao_bem_tombado at position \"2\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "endereco",
+          "fieldName": "local_ocorrencia_bem_tombado",
+          "fieldNumber": 3,
+          "fieldPosition": 3,
+          "labels": [
+            "cidade",
+            "denominacao_do_bem_tombado",
+            "endereco",
+            "tipo",
+            "ano_de_tombamento"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"endereco\" in field local_ocorrencia_bem_tombado at position \"3\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "tipo",
+          "fieldName": "categoria",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "labels": [
+            "cidade",
+            "denominacao_do_bem_tombado",
+            "endereco",
+            "tipo",
+            "ano_de_tombamento"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"tipo\" in field categoria at position \"4\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "ano_de_tombamento",
+          "fieldName": "exercicio_aceito_para_efeito_de_pontuacao",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "labels": [
+            "cidade",
+            "denominacao_do_bem_tombado",
+            "endereco",
+            "tipo",
+            "ano_de_tombamento"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"ano_de_tombamento\" in field exercicio_aceito_para_efeito_de_pontuacao at position \"5\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
         {
           "cell": "Não informado",
           "fieldName": "exercicio_aceito_para_efeito_de_pontuacao",
@@ -688,13 +818,13 @@
         }
       ],
       "stats": {
-        "errors": 24
+        "errors": 29
       },
       "valid": false
     }
   ],
   "stats": {
-    "errors": 24,
+    "errors": 29,
     "tasks": 1
   },
   "valid": false
