@@ -37,7 +37,7 @@ resources:
                      CP - Conjuntos Paisagísticos Urbanos e naturais
                      BI- Bens Imóveis -Estruturas Arquitetônicas isoladas
                      BM - Bens Móveis / Bens Integrados   
-        - name:Ano de tombamento
+        - name: Ano de tombamento
           type: integer
           title:  Ano de tombamento
           format: default
