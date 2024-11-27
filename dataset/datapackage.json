@@ -17,39 +17,39 @@
       "schema": {
         "fields": [
           {
-            "name": "municipio",
+            "name": "cidade",
             "type": "string",
-            "title": "Município",
+            "title": "Cidade",
             "format": "default",
-            "description": "Nome do municipio em que se encontra o bem tombado"
+            "description": "Município de localização do bem material tombado."
           },
           {
-            "name": "descricao_bem_tombado",
+            "name": "denominacao do bem tombado",
             "type": "string",
-            "title": "Descrição do bem tombado",
+            "title": "Denominacao do bem tombado",
             "format": "default",
-            "description": "Descrição do bem tombado"
+            "description": "Descrição do bem tombado, outra denominação do bem tombado, quando aplicável e tamanho do bem tombado em hectares"
           },
           {
-            "name": "local_ocorrencia_bem_tombado",
+            "name": "Endereco",
             "type": "string",
-            "title": "Local do tombamento",
+            "title": "Endereco",
             "format": "default",
-            "description": "Local do municipio onde se localiza o bem tombado."
+            "description": "Endereço do bem tombado, quando aplicável."
           },
           {
-            "name": "categoria",
+            "name": "tipo",
             "type": "string",
-            "title": "Categoria",
+            "title": "Tipo",
             "format": "default",
             "description": "NH - Núcleos Históricos e Centros Históricos CP - Conjuntos Paisagísticos Urbanos e naturais BI- Bens Imóveis -Estruturas Arquitetônicas isoladas BM - Bens Móveis / Bens Integrados"
           },
           {
-            "name": "exercicio_aceito_para_efeito_de_pontuacao",
+            "name": "Ano de tombamento",
             "type": "integer",
-            "title": "Exercício aceito para efeito de pontuação",
+            "title": "Ano de tombamento",
             "format": "default",
-            "description": "Ano em que a documentacao foi apresentada e aceita para fins de pontuacao"
+            "description": "Ano em que a documentacao foi apresentada e aceita para fins de pontuacao no Programa ICMS Patrimônio Cultural."
           }
         ]
       },
