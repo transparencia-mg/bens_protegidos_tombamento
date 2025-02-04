@@ -1,0 +1,46 @@
+{
+  "name": "bens_protegidos_tombamento",
+  "owner_org": "instituto-estadual-do-patrimonio-historico-e-artistico-de-minas-gerais-iepha",
+  "profile": "data-package",
+  "resources": [
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "bens_protegidos_tombamentos",
+      "path": "data/bens_protegidos_tombamentos.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "cidade",
+            "type": "string"
+          },
+          {
+            "name": "denominacao_do_bem_tombado",
+            "type": "string"
+          },
+          {
+            "name": "endereco",
+            "type": "string"
+          },
+          {
+            "name": "tipo",
+            "type": "string"
+          },
+          {
+            "name": "ano_de_tombamento",
+            "type": "integer"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    }
+  ],
+  "title": "Bens_protegidos_tombamento"
+}
