@@ -4,7 +4,7 @@
   "profile": "data-package",
   "resources": [
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "description": "O banco de dados do Patrimônio Cultural tombado pelo Estado de Minas Gerais refere-se aos bens culturais materiais que são protegidos devido ao seu valor artístico, estético, afetivo, simbólico, entre outros, e que receberam proteção através do instrumento administrativo denominado tombamento.",
       "dialect": {
         "delimiter": ";"
       },
@@ -18,28 +18,49 @@
         "fields": [
           {
             "name": "cidade",
-            "type": "string"
+            "type": "string",
+            "title": "Cidade",
+            "format": "default",
+            "description": "Município de localização do bem material tombado."
           },
           {
-            "name": "denominacao_do_bem_tombado",
-            "type": "string"
+            "name": "denominacao do bem tombado",
+            "type": "string",
+            "title": "Denominacao do bem tombado",
+            "format": "default",
+            "description": "Descrição do bem tombado, outra denominação do bem tombado, quando aplicável e tamanho do bem tombado em hectares"
           },
           {
-            "name": "endereco",
-            "type": "string"
+            "name": "Endereco",
+            "type": "string",
+            "title": "Endereco",
+            "format": "default",
+            "description": "Endereço do bem tombado, quando aplicável."
           },
           {
             "name": "tipo",
-            "type": "string"
+            "type": "string",
+            "title": "Tipo",
+            "format": "default",
+            "description": "",
+            "notes": [
+              "CP - Conjuntos Paisagísticos Urbanos e naturais",
+              "NH - Núcleos Históricos e Centros Históricos",
+              "BI- Bens Imóveis -Estruturas Arquitetônicas isoladas",
+              "BM - Bens Móveis / Bens Integrados"
+            ]
           },
           {
-            "name": "ano_de_tombamento",
-            "type": "integer"
+            "name": "Ano de tombamento",
+            "type": "integer",
+            "title": "Ano de tombamento",
+            "format": "default",
+            "description": "Ano em que a documentacao foi apresentada e aceita para fins de pontuacao no Programa ICMS Patrimônio Cultural."
           }
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Bens Protegidos - Tombamento"
     }
   ],
   "title": "Bens_protegidos_tombamento"
