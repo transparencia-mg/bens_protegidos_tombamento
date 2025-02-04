@@ -1,11 +1,11 @@
 {
   "version": "4.16.6",
-  "time": 0.06,
+  "time": 0.061,
   "errors": [],
   "tasks": [
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "description": "O banco de dados do Patrimônio Cultural tombado pelo Estado de Minas Gerais refere-se aos bens culturais materiais que são protegidos devido ao seu valor artístico, estético, afetivo, simbólico, entre outros, e que receberam proteção através do instrumento administrativo denominado tombamento.",
         "dialect": {
           "delimiter": ";"
         },
@@ -19,28 +19,49 @@
           "fields": [
             {
               "name": "cidade",
-              "type": "string"
+              "type": "string",
+              "title": "Cidade",
+              "format": "default",
+              "description": "Município de localização do bem material tombado."
             },
             {
-              "name": "denominacao_do_bem_tombado",
-              "type": "string"
+              "name": "denominacao do bem tombado",
+              "type": "string",
+              "title": "Denominacao do bem tombado",
+              "format": "default",
+              "description": "Descrição do bem tombado, outra denominação do bem tombado, quando aplicável e tamanho do bem tombado em hectares"
             },
             {
-              "name": "endereco",
-              "type": "string"
+              "name": "Endereco",
+              "type": "string",
+              "title": "Endereco",
+              "format": "default",
+              "description": "Endereço do bem tombado, quando aplicável."
             },
             {
               "name": "tipo",
-              "type": "string"
+              "type": "string",
+              "title": "Tipo",
+              "format": "default",
+              "description": "",
+              "notes": [
+                "CP - Conjuntos Paisagísticos Urbanos e naturais",
+                "NH - Núcleos Históricos e Centros Históricos",
+                "BI- Bens Imóveis -Estruturas Arquitetônicas isoladas",
+                "BM - Bens Móveis / Bens Integrados"
+              ]
             },
             {
-              "name": "ano_de_tombamento",
-              "type": "integer"
+              "name": "Ano de tombamento",
+              "type": "integer",
+              "title": "Ano de tombamento",
+              "format": "default",
+              "description": "Ano em que a documentacao foi apresentada e aceita para fins de pontuacao no Programa ICMS Patrimônio Cultural."
             }
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Bens Protegidos - Tombamento",
         "stats": {
           "hash": "9126ea86aa81fddbfd3e7b73c87aff1b",
           "bytes": 371843,
@@ -48,7 +69,7 @@
           "rows": 3267
         }
       },
-      "time": 0.052,
+      "time": 0.054,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -72,8 +93,86 @@
       "partial": false,
       "errors": [
         {
+          "label": "denominacao_do_bem_tombado",
+          "fieldName": "denominacao do bem tombado",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "labels": [
+            "cidade",
+            "denominacao_do_bem_tombado",
+            "endereco",
+            "tipo",
+            "ano_de_tombamento"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"denominacao_do_bem_tombado\" in field denominacao do bem tombado at position \"2\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "endereco",
+          "fieldName": "Endereco",
+          "fieldNumber": 3,
+          "fieldPosition": 3,
+          "labels": [
+            "cidade",
+            "denominacao_do_bem_tombado",
+            "endereco",
+            "tipo",
+            "ano_de_tombamento"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"endereco\" in field Endereco at position \"3\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "label": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "labels": [
+            "cidade",
+            "denominacao_do_bem_tombado",
+            "endereco",
+            "tipo",
+            "ano_de_tombamento"
+          ],
+          "rowPositions": [
+            1
+          ],
+          "code": "incorrect-label",
+          "name": "Incorrect Label",
+          "tags": [
+            "#table",
+            "#header",
+            "#label"
+          ],
+          "note": "",
+          "message": "Label \"ano_de_tombamento\" in field Ano de tombamento at position \"5\" does not match the field name in the schema",
+          "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -93,12 +192,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"251\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"251\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -118,12 +217,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"não informado\" in row \"754\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"não informado\" in row \"754\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -143,12 +242,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"1144\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"1144\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -168,12 +267,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"1983\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"1983\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -193,12 +292,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"1986\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"1986\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -218,12 +317,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2166\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"2166\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -243,12 +342,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2538\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"2538\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -268,12 +367,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2634\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"2634\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -293,12 +392,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2636\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"2636\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -318,12 +417,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2690\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"2690\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -343,12 +442,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2692\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"2692\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -368,12 +467,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2693\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"2693\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -393,12 +492,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2696\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"2696\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -418,12 +517,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2697\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"2697\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -443,12 +542,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2702\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"2702\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -468,12 +567,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2708\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"2708\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -493,12 +592,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2710\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"2710\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -518,12 +617,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2759\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"2759\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -543,12 +642,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2760\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"2760\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -568,12 +667,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2768\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"2768\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -593,12 +692,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2803\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"2803\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -618,12 +717,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2887\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"2887\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -643,12 +742,12 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"3207\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"3207\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
           "cell": "Não informado",
-          "fieldName": "ano_de_tombamento",
+          "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
@@ -668,18 +767,18 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"3208\" and field \"ano_de_tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"Não informado\" in row \"3208\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         }
       ],
       "stats": {
-        "errors": 24
+        "errors": 27
       },
       "valid": false
     }
   ],
   "stats": {
-    "errors": 24,
+    "errors": 27,
     "tasks": 1
   },
   "valid": false
