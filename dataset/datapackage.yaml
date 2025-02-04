@@ -13,7 +13,7 @@ resources:
     profile: tabular-data-resource
     schema:
       fields:
-       - name: cidade
+        - name: cidade
           type: string
           title:  Cidade
           format: default
