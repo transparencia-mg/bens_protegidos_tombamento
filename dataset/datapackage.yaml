@@ -2,7 +2,7 @@ name: bens_protegidos_tombamento
 owner_org: instituto-estadual-do-patrimonio-historico-e-artistico-de-minas-gerais-iepha
 profile: data-package
 resources:
-  - description: Insira a descrição/explicação detalhada deste recurso.
+  - description: O banco de dados do Patrimônio Cultural tombado pelo Estado de Minas Gerais refere-se aos bens culturais materiais que são protegidos devido ao seu valor artístico, estético, afetivo, simbólico, entre outros, e que receberam proteção através do instrumento administrativo denominado tombamento.
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -13,16 +13,36 @@ resources:
     profile: tabular-data-resource
     schema:
       fields:
-        - name: cidade
+       - name: cidade
           type: string
-        - name: denominacao_do_bem_tombado
+          title:  Cidade
+          format: default
+          description: Município de localização do bem material tombado.
+        - name: denominacao do bem tombado
           type: string
-        - name: endereco
+          title: Denominacao do bem tombado
+          format: default
+          description: Descrição do bem tombado, outra denominação do bem tombado, quando aplicável e tamanho do bem tombado em hectares
+        - name: Endereco
           type: string
+          title:  Endereco
+          format: default
+          description: Endereço do bem tombado, quando aplicável.
         - name: tipo
           type: string
-        - name: ano_de_tombamento
+          title: Tipo
+          format: default
+          description: >
+          notes:
+                     - 'CP - Conjuntos Paisagísticos Urbanos e naturais'
+                     - 'NH - Núcleos Históricos e Centros Históricos'
+                     - 'BI- Bens Imóveis -Estruturas Arquitetônicas isoladas'
+                     - 'BM - Bens Móveis / Bens Integrados'
+        - name: Ano de tombamento
           type: integer
+          title:  Ano de tombamento
+          format: default
+          description: Ano em que a documentacao foi apresentada e aceita para fins de pontuacao no Programa ICMS Patrimônio Cultural.
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
+    title: Bens Protegidos - Tombamento
 title: Bens_protegidos_tombamento
