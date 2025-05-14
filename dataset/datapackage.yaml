@@ -44,5 +44,5 @@ resources:
           format: default
           description: Ano em que a documentacao foi apresentada e aceita para fins de pontuacao no Programa ICMS Patrimônio Cultural.
     scheme: file
-    title: Bens Protegidos - Tombamento
-title: Bens Protegidos - Tombamento
+    title: Patrimônio Cultural Tombado
+title: Patrimônio Cultural Tombado
