@@ -8,7 +8,7 @@ Eles precisam ser portadores de referência à identidade, à ação, à memóri
 
 Após o tombamento é necessário que o bem seja inscrito no respectivo Livro de Tombo, seja ele: Livro do Tombo Arqueológico, Etnográfico e Paisagístico, Livro do Tombo Histórico, Livro do Tombo das Belas Artes e Livro do Tombo das Artes Aplicadas.
 
-Os municípios do Estado de Minas Gerais são responsáveis pela identificação, reconhecimento, manutenção e conservação do Patrimônio Cultural tombado local.
+Os municípios do Estado de Minas Gerais são responsáveis pela identificação, reconhecimento, manutenção e conservação do Patrimônio Cultural tombado local..
 
 
 ## Como participar
