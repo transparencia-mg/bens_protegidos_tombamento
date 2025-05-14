@@ -10,6 +10,7 @@ Após o tombamento é necessário que o bem seja inscrito no respectivo Livro de
 
 Os municípios do Estado de Minas Gerais são responsáveis pela identificação, reconhecimento, manutenção e conservação do Patrimônio Cultural tombado local.
 
+
 ## Como participar
 
 Saiba como contribuir com a documentação deste conjunto de dados!
