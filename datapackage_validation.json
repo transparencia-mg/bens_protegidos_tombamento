@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.073,
+  "time": 0.097,
   "errors": [],
   "tasks": [
     {
@@ -63,13 +63,13 @@
         "scheme": "file",
         "title": "Bens Protegidos - Tombamento",
         "stats": {
-          "hash": "9126ea86aa81fddbfd3e7b73c87aff1b",
-          "bytes": 371843,
+          "hash": "c303cf991b9ea1740752affdfba52901",
+          "bytes": 479984,
           "fields": 5,
-          "rows": 3267
+          "rows": 4655
         }
       },
-      "time": 0.064,
+      "time": 0.087,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -171,44 +171,19 @@
           "description": "One of the data source header does not match the field name defined in the schema."
         },
         {
-          "cell": "Não informado",
+          "cell": "2000/2007",
           "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "Belo Horizonte",
-            "Conjunto Urbano Praça Tiradentes e Adjacências",
-            "Não informado",
-            "CP",
-            "Não informado"
-          ],
-          "rowNumber": 250,
-          "rowPosition": 251,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"251\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "não informado",
-          "fieldName": "Ano de tombamento",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "Conceição do Mato Dentro",
-            "Obras de Talha",
-            "Santuário de Bom Jesus de Matosinhos",
+            "Bom Despacho",
+            "Quadro A Matriz de Bom Despacho",
+            "Museu da Cidade - Rua Ari Marques nº 355",
             "BM",
-            "não informado"
+            "2000/2007"
           ],
-          "rowNumber": 753,
-          "rowPosition": 754,
+          "rowNumber": 545,
+          "rowPosition": 546,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -217,23 +192,23 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"não informado\" in row \"754\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"2000/2007\" in row \"546\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "Não informado",
+          "cell": "2025/2026",
           "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "Felixlândia",
-            "Cemitério Municipal",
-            "Avenida Tancredo Neves nº 986",
+            "Campos Gerais",
+            "Ponte das Amoras - Liga Campos Gerais a Alfenas",
+            "Rodovia BR 369 - KM 89",
             "BI",
-            "Não informado"
+            "2025/2026"
           ],
-          "rowNumber": 1143,
-          "rowPosition": 1144,
+          "rowNumber": 828,
+          "rowPosition": 829,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -242,23 +217,48 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"1144\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"2025/2026\" in row \"829\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "Não informado",
+          "cell": "2001/2007",
           "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "Montes Claros",
-            "Morro Dois Irmãos",
-            "Pico dos Dois Morrinhos - Morro dos Urubus - Morro do Alfeirão",
+            "Carangola",
+            "Pontilhão de Ferro",
+            "Rua Amilcar de Souza com Rua Justino Frossard",
+            "BI",
+            "2001/2007"
+          ],
+          "rowNumber": 903,
+          "rowPosition": 904,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"2001/2007\" in row \"904\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2025/2026",
+          "fieldName": "Ano de tombamento",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "Carmo do Cajuru",
+            "Conjunto Paisagístico da Praça Sagrado Coração de Jesus",
+            "Distrito de Ribeiros",
             "CP",
-            "Não informado"
+            "2025/2026"
           ],
-          "rowNumber": 1982,
-          "rowPosition": 1983,
+          "rowNumber": 949,
+          "rowPosition": 950,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -267,23 +267,73 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"1983\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"2025/2026\" in row \"950\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "Não informado",
+          "cell": "Destruída em 2009",
           "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "Montes Claros",
-            "Serra de Montes Claros",
-            "Serra do Melo -  Serra da Sapucaia - Serra do Ibituruna",
+            "Carvalhópolis",
+            "Árvore da espécie Copaíba",
+            "Praça Monsenhor Dutra - Centro",
+            "BI",
+            "Destruída em 2009"
+          ],
+          "rowNumber": 975,
+          "rowPosition": 976,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"Destruída em 2009\" in row \"976\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2017/2024",
+          "fieldName": "Ano de tombamento",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "Cristais",
+            "Imagem de Nossa Senhora das Dores",
+            "Igreja Nossa Senhora da Ajuda - Praça Monsenhor Celso Pinheiro",
+            "BM",
+            "2017/2024"
+          ],
+          "rowNumber": 1392,
+          "rowPosition": 1393,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"2017/2024\" in row \"1393\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2006/2007",
+          "fieldName": "Ano de tombamento",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "Guaranésia",
+            "Praças Coronel Paula Ribeiro e Dona Sinhá",
+            "A Praça Coronel Paula Ribeira é circundada pelas ruas: Rua Capitão Gomes Costas, Rua Santa Bárbara, Rua Prudente de Moraes e Rua Júlio Tavares. Por sua vez a Praça Dona Sinhá tem seu perímetro estabelecido pelas ruas: Rua Júlio Tavares, Rua Presidente de Moraes, Rua Santa Bárbara e Rua Cel. Mizael Sandoval.",
             "CP",
-            "Não informado"
+            "2006/2007"
           ],
-          "rowNumber": 1985,
-          "rowPosition": 1986,
+          "rowNumber": 1846,
+          "rowPosition": 1847,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -292,23 +342,23 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"1986\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"2006/2007\" in row \"1847\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "Não informado",
+          "cell": "2025/2026",
           "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "Ouro Preto",
-            "Conjunto Arquitetônico e Arqueológico da Capela de Nossa Senhora Auxiliadora de Calastróis e Cemitérios - 0,39 ha",
-            "Não informado",
+            "Inhaúma",
+            "Conjunto Arquitetônico e Paisagístico Área de Lazer da Manga",
+            "Praça Alice Faria Costa - Bairro Santa Cruz",
             "CP",
-            "Não informado"
+            "2025/2026"
           ],
-          "rowNumber": 2165,
-          "rowPosition": 2166,
+          "rowNumber": 1980,
+          "rowPosition": 1981,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -317,223 +367,23 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2166\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"2025/2026\" in row \"1981\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "Não informado",
+          "cell": "2001/2007",
           "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "Raposos",
-            "Matriz Nossa Senhorada Conceição de Raposos",
-            "Não informado",
-            "BI",
-            "Não informado"
-          ],
-          "rowNumber": 2537,
-          "rowPosition": 2538,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2538\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "Não informado",
-          "fieldName": "Ano de tombamento",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "Sabará",
-            "Edificações",
-            "Rua São Pedro nº 03 - 09 - 49 - 71 - 83 - 119 - 18 - 60 - 102 - 114 - 124",
-            "BI",
-            "Não informado"
-          ],
-          "rowNumber": 2633,
-          "rowPosition": 2634,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2634\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "Não informado",
-          "fieldName": "Ano de tombamento",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "Sabará",
-            "Museu do Ouro - Casa da Intendência",
-            "Não informado",
-            "BI",
-            "Não informado"
-          ],
-          "rowNumber": 2635,
-          "rowPosition": 2636,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2636\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "Não informado",
-          "fieldName": "Ano de tombamento",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "Santa Luzia",
-            "Casa",
-            "Rua Direita, nº 101",
-            "BI",
-            "Não informado"
-          ],
-          "rowNumber": 2689,
-          "rowPosition": 2690,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2690\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "Não informado",
-          "fieldName": "Ano de tombamento",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "Santa Luzia",
-            "Casa",
-            "Praça da Matriz de Santo Antônio",
-            "BI",
-            "Não informado"
-          ],
-          "rowNumber": 2691,
-          "rowPosition": 2692,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2692\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "Não informado",
-          "fieldName": "Ano de tombamento",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "Santa Luzia",
-            "Mosteiro de Macaúbas",
-            "Não informado",
-            "BI",
-            "Não informado"
-          ],
-          "rowNumber": 2692,
-          "rowPosition": 2693,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2693\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "Não informado",
-          "fieldName": "Ano de tombamento",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "Santa Luzia",
-            "Basílica de Santa Luzia do Rio das Velhas",
-            "Não informado",
-            "BI",
-            "Não informado"
-          ],
-          "rowNumber": 2695,
-          "rowPosition": 2696,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2696\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "Não informado",
-          "fieldName": "Ano de tombamento",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "Santa Luzia",
-            "Mosteiro de Macaúbas",
-            "Não informado",
-            "BI",
-            "Não informado"
-          ],
-          "rowNumber": 2696,
-          "rowPosition": 2697,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2697\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "Não informado",
-          "fieldName": "Ano de tombamento",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "Santa Luzia",
-            "Mosteiro de Macaúbas",
-            "Não informado",
+            "Itabirito",
+            "Conjunto da Área da Estação Ferroviária",
+            "Praça Doutor Guilherme - Centro",
             "CP",
-            "Não informado"
+            "2001/2007"
           ],
-          "rowNumber": 2701,
-          "rowPosition": 2702,
+          "rowNumber": 2048,
+          "rowPosition": 2049,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -542,20 +392,170 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2702\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"2001/2007\" in row \"2049\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "Não informado",
+          "cell": "2007/2009",
           "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "Santa Rita de Ibitipoca",
-            "Serra do Ibitipoca",
-            "Não informado",
+            "Itacambira",
+            "Conjunto Paisagístico da Serra Resplandecente",
+            "",
             "CP",
-            "Não informado"
+            "2007/2009"
+          ],
+          "rowNumber": 2066,
+          "rowPosition": 2067,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"2007/2009\" in row \"2067\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2001/2007",
+          "fieldName": "Ano de tombamento",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "Itapecerica",
+            "Igreja de Nossa Senhora do Desterro",
+            "Praça Manoel Carvalho da Silva  s/nº - Distrito de Marilandia",
+            "BI",
+            "2001/2007"
+          ],
+          "rowNumber": 2174,
+          "rowPosition": 2175,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"2001/2007\" in row \"2175\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2000/2007",
+          "fieldName": "Ano de tombamento",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "Ituiutaba",
+            "Praça Cônego Ângelo",
+            "Avenida 9 com Ruas Vinte e Vinte e Dois - Centro",
+            "CP",
+            "2000/2007"
+          ],
+          "rowNumber": 2232,
+          "rowPosition": 2233,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"2000/2007\" in row \"2233\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2003/2007",
+          "fieldName": "Ano de tombamento",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "Juiz de Fora",
+            "Museu Ferroviário Estação Leopoldina  - Rede Ferroviária Federal:  Volumetria e fachadas voltadas para a Avenida Brasil e para Avenida Francisco Bernardino",
+            "Avenida Brasil   nº 2001",
+            "BI",
+            "2003/2007"
+          ],
+          "rowNumber": 2377,
+          "rowPosition": 2378,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"2003/2007\" in row \"2378\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2003/2007",
+          "fieldName": "Ano de tombamento",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "Juiz de Fora",
+            "Igreja Nossa Senhora da Glória e o marco em granito com as inscrições: U.I. 1856 em sua base",
+            "Lado Luteran - Cemitério da Glória - Avenida dos Andradas  nº 855",
+            "BI",
+            "2003/2007"
+          ],
+          "rowNumber": 2382,
+          "rowPosition": 2383,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"2003/2007\" in row \"2383\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2003/2007",
+          "fieldName": "Ano de tombamento",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "Lima Duarte",
+            "Conjunto Arquitetônico da Igreja de Nossa Senhora dos Remédios: móveis, alfáias, imaginárias, paramentos litúrgicos e documentos , Praça no entorno da Igreja incluindo a Capela de Bom Jesus do Pião, o coreto e o pequeno chafariz",
+            "Povoado de Mogol",
+            "BI",
+            "2003/2007"
+          ],
+          "rowNumber": 2605,
+          "rowPosition": 2606,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"2003/2007\" in row \"2606\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2007/2009",
+          "fieldName": "Ano de tombamento",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "Martinho Campos",
+            "Imagem Nossa Senhora da Abadia",
+            "Santuário de Nossa Senhora da Abadia - Praça Governador Valadares s/nº",
+            "BM",
+            "2007/2009"
           ],
           "rowNumber": 2707,
           "rowPosition": 2708,
@@ -567,48 +567,23 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2708\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"2007/2009\" in row \"2708\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "Não informado",
+          "cell": "2001/2007",
           "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "Santa Rita de Jacutinga",
-            "Conjunto Arqutitetônico da Fazenda Santa Clara - 76 22 ha",
-            "Não informado",
-            "CP",
-            "Não informado"
-          ],
-          "rowNumber": 2709,
-          "rowPosition": 2710,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2710\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        },
-        {
-          "cell": "Não informado",
-          "fieldName": "Ano de tombamento",
-          "fieldNumber": 5,
-          "fieldPosition": 5,
-          "cells": [
-            "Santana dos Montes",
-            "Fazenda da Posse",
-            "Não informado",
+            "Pará de Minas",
+            "Escola Estadual Fernando Otávio: Fachada frontal",
+            "Praça Frei Concordio  nº 750",
             "BI",
-            "Não informado"
+            "2001/2007"
           ],
-          "rowNumber": 2758,
-          "rowPosition": 2759,
+          "rowNumber": 3109,
+          "rowPosition": 3110,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -617,23 +592,23 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2759\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"2001/2007\" in row \"3110\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "Não informado",
+          "cell": "2001/2007",
           "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "Santana dos Montes",
-            "Fazenda Fonte Limpa",
-            "Não informado",
+            "Pará de Minas",
+            "Irmandade de Nossa Senhora da Conceição - Hospital",
+            "Rua Benedito Valadares  nº 358",
             "BI",
-            "Não informado"
+            "2001/2007"
           ],
-          "rowNumber": 2759,
-          "rowPosition": 2760,
+          "rowNumber": 3114,
+          "rowPosition": 3115,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -642,23 +617,23 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2760\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"2001/2007\" in row \"3115\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "Não informado",
+          "cell": "2001/2007",
           "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "Santo Antônio do Itambé",
-            "Pico do Itambé",
-            "Não informado",
+            "Pará de Minas",
+            "Praças Torquato de Almeida e Francisco Torquato de Almeida",
+            "",
             "CP",
-            "Não informado"
+            "2001/2007"
           ],
-          "rowNumber": 2767,
-          "rowPosition": 2768,
+          "rowNumber": 3126,
+          "rowPosition": 3127,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -667,23 +642,23 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2768\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"2001/2007\" in row \"3127\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "Não informado",
+          "cell": "2001/2007",
           "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "Santos Dumont",
-            "Parque Cabangu e respectivo acervo",
-            "Não informado",
+            "Pedro Leopoldo",
+            "Conjunto Residencial",
+            "Rua Nossa Senhora da Saúde - Bairro Cachoeira Grande",
             "CP",
-            "Não informado"
+            "2001/2007"
           ],
-          "rowNumber": 2802,
-          "rowPosition": 2803,
+          "rowNumber": 3326,
+          "rowPosition": 3327,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -692,23 +667,23 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2803\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"2001/2007\" in row \"3327\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "Não informado",
+          "cell": "2009/2010",
           "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "São João del-Rei",
-            "Memorial Tancredo Neves",
-            "Rua Padre José Maria Xavier nº07 esquina com Avenida Eduardo Magalhães",
+            "Presidente Kubitschek",
+            "Igreja Nossa Senhora das Dores",
+            "Praça Doutor Waldir de Ávila, s/nº",
             "BI",
-            "Não informado"
+            "2009/2010"
           ],
-          "rowNumber": 2886,
-          "rowPosition": 2887,
+          "rowNumber": 3579,
+          "rowPosition": 3580,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -717,23 +692,48 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"2887\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"2009/2010\" in row \"3580\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "Não informado",
+          "cell": "2009/2010",
           "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "Varginha",
-            "Estátua da Deusa Vênus - Praça da Avenida Rio Branco",
-            "Praça da Avenida Rio Branco",
+            "Presidente Kubitschek",
+            "Imagem Nossa Senhora das Dores",
+            "Igreja Nossa Senhora das Dores = Praça Doutor Waldir de Avila",
+            "BM",
+            "2009/2010"
+          ],
+          "rowNumber": 3580,
+          "rowPosition": 3581,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"2009/2010\" in row \"3581\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2009/2010",
+          "fieldName": "Ano de tombamento",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "Queluzito",
+            "Igreja Matriz de Santo Amaro",
+            "Praça Santo Amaro  s/nº - Centro",
             "BI",
-            "Não informado"
+            "2009/2010"
           ],
-          "rowNumber": 3206,
-          "rowPosition": 3207,
+          "rowNumber": 3589,
+          "rowPosition": 3590,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -742,23 +742,43 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"3207\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"2009/2010\" in row \"3590\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         },
         {
-          "cell": "Não informado",
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "rowNumber": 3642,
+          "rowPosition": 3643,
+          "code": "blank-row",
+          "name": "Blank Row",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "",
+          "message": "Row at position \"3643\" is completely blank",
+          "description": "This row is empty. A row should contain at least one value."
+        },
+        {
+          "cell": "2006/2007",
           "fieldName": "Ano de tombamento",
           "fieldNumber": 5,
           "fieldPosition": 5,
           "cells": [
-            "Varginha",
-            "Parque Novo Horizonte - Praça do Lago - 2,7 ha",
-            "Praça do Lago s/nº",
+            "Rio Vermelho",
+            "Conjunto  Paisagístico da Gruta do Taipeiro",
+            "",
             "CP",
-            "Não informado"
+            "2006/2007"
           ],
-          "rowNumber": 3207,
-          "rowPosition": 3208,
+          "rowNumber": 3728,
+          "rowPosition": 3729,
           "code": "type-error",
           "name": "Type Error",
           "tags": [
@@ -767,18 +787,168 @@
             "#cell"
           ],
           "note": "type is \"integer/default\"",
-          "message": "Type error in the cell \"Não informado\" in row \"3208\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "message": "Type error in the cell \"2006/2007\" in row \"3729\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2005/2018",
+          "fieldName": "Ano de tombamento",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "Santa Bárbara",
+            "Conjunto Natural  Paisagístico e Arqueologico do Barro Branco",
+            "Fazenda Lavras Velhas  Distrito de Barro Branco  no limite com as áreas de reflorestamento da Cenibra",
+            "CP",
+            "2005/2018"
+          ],
+          "rowNumber": 3814,
+          "rowPosition": 3815,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"2005/2018\" in row \"3815\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2006/2007",
+          "fieldName": "Ano de tombamento",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "Santana de Cataguases",
+            "Conjunto Paisagístico Cachoeira da Fumaça",
+            "",
+            "CP",
+            "2006/2007"
+          ],
+          "rowNumber": 3909,
+          "rowPosition": 3910,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"2006/2007\" in row \"3910\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2000/2001",
+          "fieldName": "Ano de tombamento",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "São Brás do Suaçuí",
+            "Área de Preservação Permanente Oswaldo Marques Gontijo - Pedreira e Córrego Manoel de Andrade",
+            "Fazenda Santa Amália",
+            "CP",
+            "2000/2001"
+          ],
+          "rowNumber": 4007,
+          "rowPosition": 4008,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"2000/2001\" in row \"4008\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2010/2011",
+          "fieldName": "Ano de tombamento",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "São Gonçalo do Rio Abaixo",
+            "Centro Pastoral",
+            "Rua  Augusto Pessoa nº 151 - Centro",
+            "BI",
+            "2010/2011"
+          ],
+          "rowNumber": 4056,
+          "rowPosition": 4057,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"2010/2011\" in row \"4057\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2010/2011",
+          "fieldName": "Ano de tombamento",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "Senador Cortes",
+            "Acervo documental da Prefeitura Municipal",
+            "Avenida Antônio de Souza Rabelo nº 179",
+            "BM",
+            "2010/2011"
+          ],
+          "rowNumber": 4257,
+          "rowPosition": 4258,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"2010/2011\" in row \"4258\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2009/2010",
+          "fieldName": "Ano de tombamento",
+          "fieldNumber": 5,
+          "fieldPosition": 5,
+          "cells": [
+            "Simão Pereira",
+            "Acervo Documental da Antiga Fazenda Cabui",
+            "Espaço Cultural Simão Pereira de Sá",
+            "BM",
+            "2009/2010"
+          ],
+          "rowNumber": 4341,
+          "rowPosition": 4342,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"integer/default\"",
+          "message": "Type error in the cell \"2009/2010\" in row \"4342\" and field \"Ano de tombamento\" at position \"5\": type is \"integer/default\"",
           "description": "The value does not match the schema type and format for this field."
         }
       ],
       "stats": {
-        "errors": 27
+        "errors": 34
       },
       "valid": false
     }
   ],
   "stats": {
-    "errors": 27,
+    "errors": 34,
     "tasks": 1
   },
   "valid": false
